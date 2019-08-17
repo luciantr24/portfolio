@@ -17,6 +17,13 @@ a{
 }
 
 /* header */
+.starter-template h1{
+	font-size: 70px;
+}
+.starter-template p{
+	font-size: 45px;
+}
+
 header{
 	width: 100%;
 	height: 100vh;
@@ -149,6 +156,33 @@ nav ul li a:hover::after{
 	}
 }
 
+
+
+.welcome-section {
+	position: relative;
+    display: -webkit-box;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 700px){
 
 	.menu-toggle{
@@ -208,6 +242,11 @@ nav ul li a:hover::after{
     color: white;
   }
   
+  @media screen and (max-width: 800px) {
+	.intro, .intro p, .social, .intro h1  {
+	  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	}
+  }
   /*end of header*/
 
 
@@ -247,7 +286,6 @@ nav ul li a:hover::after{
   }
 
   
-
   .about-section{
 	width: 100%;
 	background: #f1f1f1;
@@ -564,16 +602,16 @@ footer p{
 		width: calc(30% - 10px);
 	  }
 	  .bar.intermediate::before{
-		width: calc(65% - 10px);
+		width: calc(45% - 10px);
 	  }
 	  .bar.intermediate1::before{
-		width: calc(35% - 10px);
+		width: calc(55% - 10px);
 	  }
 	  .bar.intermediate2::before{
 		width: calc(30% - 10px);
 	  }
 	  .bar.intermediate3::before{
-		width: calc(45% - 10px);
+		width: calc(35% - 10px);
 	  }
 	  .bar.advanced::before{
 		width: calc(70% - 10px);
@@ -607,4 +645,22 @@ footer p{
 {
     color: #0095c4;
     border-color: #0095c4;
+}
+
+.about1 li{
+	font-size: 10px;
+}
+.about p{
+	font-size: 20px;
+}
+.education li{
+	font-size: 15px;
+	positon: absolute;
+}
+.education p{
+	font-size:25px;
+}
+.education h1{
+	font-size: 30px;
+	positon: absolute;
 }

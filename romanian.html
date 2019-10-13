@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-sclae=1.0">
     <title>Lucian Trăistaru</title>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href = "style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -18,32 +20,30 @@
   </head>
   <body>
   
-    
-
-
    
-<header>
-        <div class="menu-toggle" id="hamburger">
-            <i class="fas fa-bars"></i>
-        </div>
-        <div class="overlay"></div>
-        <div class="container">
-            <nav>
-                <h1 class="brand"><a href="romanian.html">L<span>T</span></a></h1>
-                <ul>
-                  
-                    <li><a href="#welcome-section">Acasă</a></li>
-                    <li><a href="#about-section">Despre</a></li>
-                    <li><a href="#skills-section">Abilități</a></li>
-                    <li><a href="#footer-above">Contact</a></li>
-                    <li class = "but"><a href="index.html">EN</a></li>
-                </ul>
-            </nav>
+      <header>
+          <div class="menu-toggle" id="hamburger">
+              <i class="fas fa-bars"></i>
+          </div>
+          <div class="overlay"></div>
+          <div class="container">
+              <nav>
+                  <h1 class="brand"><a href="romanian.html">L<span>T</span></a></h1>
+                  <ul>
+                    
+                      <li><a href="#welcome-section">Acasă</a></li>
+                      <li><a href="#about-section">Despre</a></li>
+                      <li><a href="#skills-section">Abilități</a></li>
+                      <li><a href="#proj">Proiecte</a></li>
+                      <li><a href="#footer-above">Contact</a></li>
+                      <li class = "but"><a href="index.html">EN</a></li>
+                  </ul>
+              </nav>
 
             <br>
    <div id="welcome-section" class="intro">         
       <div class="starter-template">
-      <h1>Bine ai venit,</h1>
+      <h1 class = "h1class">Bine ai venit,</h1>
       <p class="lead">Sunt Lucian Trăistaru</p>
   </div>
 
@@ -127,16 +127,50 @@
       <div class="bar front intermediate1" data-skill="Baze de date: SQL  "></div>
       <div class="bar learning" data-skill="Back-end: JS / PHP / PHP MyAdmin"></div>
       <div class="bar back intermediate2" data-skill="Analiză:Excel / SAS / SAS Enterprise Guide"></div>
-    
+      <br>
     </div>
     </div>
   </div>
 </section>
 
+<section id = "proj">
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <br>
+    <h3 class = "text-center">Proiecte</h3>
+    <div class="border"></div>
+    <div class="col-sm-3">
+      
+      <img src="1.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Magazin online</p>
+      <p>HTML/CSS/PHP/PHPMyAdmin</p>
+    </div>
+    <div class="col-sm-3"> 
+     
+      <img src="2.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Aplicație web pentru notițe</p>
+      <p>HTML/CSS/JavaScript</p>
+    </div>
+    <div class="col-sm-3"> 
+     
+      <img src="3.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Template pentru convertor YouTube - mp3</p>
+      <p>Bootstrap/JavaScript</p>
+    </div>
+    <div class="col-sm-3">
+      
+      <img src="4.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pentru detalii <a href = "https://codepen.io/luciant24" class="aid">PROFIL CODEPEN.io</a></p>
+    </div>
+  </div>
+</div><br><br>
+</section>
+
+
 <footer>
   <div id="footer-above">
       <div>
-          <h3 class = "hclass">Contact</h3>
+          <h3 class ="hclass">Contact</h3>
           
           <p>traistarulucian24@gmail.com</p>
 
@@ -146,6 +180,7 @@
               <li><a class="button social" href="https://www.linkedin.com/in/lucian-traistaru-a6660512b/" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
               <li><a class="button social" href="https://github.com/luciantr24" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
               <li><a class="button social" href="https://twitter.com/LucianT4" target="_blank"><i class="fa  fa-fw fa-twitter"></i></a></li>
+              <li><a class="button social" href="https://codepen.io/luciant24" target="_blank"><i class="fa  fa-fw fa-codepen"></i></a></li>
           </ul>
       </div>
   </div>

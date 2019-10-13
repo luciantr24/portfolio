@@ -61,7 +61,7 @@ nav{
 
 .brand{
 	font-size: 3rem;
-	font-weight: 300;
+	font-weight: 400;
 	transform: translateX(-100rem);
 	animation: slideIn .5s forwards;
 }
@@ -118,7 +118,12 @@ nav ul li a::after{
 	transform: scaleX(0);
 	transition: all .5s;
 }
-
+.container a{
+	
+	color:rgb(252, 252, 252);
+	text-decoration: none; 
+	background-color: none;
+}
 nav ul li a::before{
 	top: 0;
 	transform-origin: left;
@@ -139,7 +144,7 @@ nav ul li a::after{
 	transition: opacity 650ms;
 	transform: scale(0);
 	opacity: 0;
-  display: none;
+  	display: none;
 }
 
 nav ul li a:hover::before,
@@ -676,4 +681,26 @@ footer p{
 }
 .hclass{
 	font-size: 30px;
+}
+.h1class{
+	font-size:15px;
+}
+.column {
+	float: left;
+	width: 44.44%;
+	padding: 5px;
+	text-align: justify;
+    width: [width of img];
+  }
+  .projects-header {
+	width: 75%;
+	margin: auto;
+	border-bottom: 1px #dddddd solid;
+}
+
+/* Contact Section */
+
+
+.aid{
+	color:black;
 }

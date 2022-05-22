@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Main",
+        "values": [
+            "C#",
+            "React",
+            "JavaScript",
+            "Typescript",
+            "Node",
+            "Python",
+            "Unit Testing"
+        ]
+    },
+    {
+        "name": "Databases",
+        "values": [
+            "MySql",
+            "Azure CosmosDB",
+            "MongoDb",
+            "Google Firebase"
+        ]
+    },
+    {
+        "name": "Web development",
+        "values": [
+            "HTML, CSS",
+            "React",
+            "Context API, Redux",
+            "Material UI, Bootstrap, Antd"
+        ]
+    },
+    {
+        "name": "DevOps & Other tools",
+        "values": [
+            "Azure Devops",
+            "Azure KeyValut",
+            "Azure ServiceBus, RabbitMQ",
+            "Docker",
+            "GIT",
+            "CI/CD with Azure Pipelines/Heroku/Github Actions"
+        ]
+    }
+]

@@ -3,13 +3,13 @@
         "name": "Pluto - Project Management Tool",
         "description": "Application with features like Kanban board, backlog, overviews notifications support in Slack",
         "type": "web",
-        "technologies": ["React", "Firebase", ".NET", "Docker", "Heroku"]
+        "technologies": ["React", "Redux", "Firebase", ".NET", "Docker", "Heroku"]
     },
     {
         "name": "Radical - No-Sql Database",
         "description": "Application to manage json documents",
         "type": "web",
-        "technologies": ["React", ".NET"]
+        "technologies": ["React", "Redux", ".NET"]
     },
     {
         "name": "Covid Web Application",
@@ -21,13 +21,13 @@
         "name": "Students management application",
         "description": "An application where you can manage students of an university",
         "type": "web",
-        "technologies": [".NET", ".NET WPF"]
+        "technologies": [".NET WPF"]
     },
     {
         "name": "Take Notes App",
         "description": "Applicaiton to manage your daily tasks",
         "type": "web & mobile",
-        "technologies": ["React", "React Native"]
+        "technologies": ["React", "React Native", "Typescript", "Redux"]
     },
     {
         "name": "Weather Web Application",

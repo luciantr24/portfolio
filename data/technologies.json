@@ -37,7 +37,7 @@
             "Azure ServiceBus, RabbitMQ",
             "Docker",
             "GIT",
-            "CI/CD with Azure Pipelines/Heroku/Github Actions"
+            "CI/CD with Azure Pipelines/Heroku/GitHub Actions"
         ]
     }
 ]

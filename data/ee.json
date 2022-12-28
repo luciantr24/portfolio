@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Education",
+        "values": [
+            {
+                "title": "Sept 2012 - Jul 2016",
+                "period": "Constantin Brâncoveanu High School, Matematics and Informatics"
+            },
+            {
+                "title": "Oct 2016 - Jul 2019",
+                "period": "Faculty of Cybernetics, Statistics and Economic Informatics, Academy of Economic Studies, Bucharest, Romania"
+            },
+            {
+                "title": "Oct 2019 - Jul 2021",
+                "period": "Master Degree - Information systems for the management of economic processes and resources (SIMPRE), ASE"
+            }
+        ]
+    },
+    {
+        "name": "Experience",
+        "values": [
+            {
+                "title": "March 2018 - May 2018",
+                "period": "Software developer, SIVECO S.A - Faculty practice"
+            },
+            {
+                "title": "Jan 2020 - Now",
+                "period": "Software Developer, BearingPoint Romania"
+            }
+        ]
+    }
+]

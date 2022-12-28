@@ -1,5 +1,9 @@
-#This is a personal portfolio
+### Personal portfolio website
 
-#You can use the template and make it better for your needs
+---
 
-#Thank you
+### Technologies used:
+
+- HTML
+- CSS
+- JavaScript

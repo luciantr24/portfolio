@@ -599,6 +599,31 @@ pre code {
     max-width: 1140px;
   }
 }
+
+.tags_ul {
+  padding-left: 0;
+  display: inline;
+  list-style-type: none;
+}
+
+.tags_li {
+  display: inline-block;
+  background: #ff6c3f;
+  color: rgb(0, 0, 0);
+  margin: 0 0 0 0.5em;
+  text-decoration: none;
+  border-radius: .3em;
+  text-align: center;
+}
+
+.col-sm-6{
+  min-height: 170px;
+}
+
+.projects_element {
+  height: 126px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

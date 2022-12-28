@@ -1,5 +1,5 @@
 const renderTechologiesSectionData = () => {
-  const technologies = fetch("../data/technologies.json");
+  const technologies = fetch("data/technologies.json");
   technologies
     .then((result) => result.json())
     .then((data) => {

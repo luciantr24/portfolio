@@ -1,5 +1,5 @@
 const renderProjectsSection = () => {
-  fetch("../data/projects.json")
+  fetch("data/projects.json")
     .then((res) => res.json())
     .then((data) => {
       var projects_element = document.getElementById("projects_element");

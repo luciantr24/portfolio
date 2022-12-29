@@ -10,6 +10,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -4371,6 +4372,8 @@ input[type=button].btn-block {
 }
 
 .card {
+  min-height: 166px;
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: column;

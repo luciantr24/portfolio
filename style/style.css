@@ -74,6 +74,20 @@ body {
   outline: 0 !important;
 }
 
+.eesec{
+  display: table;
+  clear: both;
+}
+
+#educ1 {
+  float: left;
+  width: 50%;
+}
+
+#exp1 {
+  width: 50%;
+}
+
 .projects-list {
   text-align: justify;
 }
@@ -4509,6 +4523,10 @@ input[type=button].btn-block {
 @media (max-device-width: 850px) {
   .card {
     height: 300px;
+  }
+
+  #educ1 {
+    width: 100%;
   }
 
   .card-deck {

@@ -17,6 +17,9 @@
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145860980-1"></script>
+
+    <script src="sections/education/education.js"></script>
+    <script src="sections/experience/experience.js"></script>
   </head>
   <body id="page-top">
     
@@ -65,34 +68,25 @@
         </div>
     </section>
 
-    <!--Education section-->
+    <!--Education and Experience section-->
     <section class="page-section bg-dark text-white" id="education">
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-lg-8 text-center">
-                  <h2 class="text-white mt-0">Education</h2>
-                  <hr class="divider my-4"/>
-                      <li>Sept 2012 - Jul 2016</li>
-                        <p>Constantin Brâncoveanu High School, Matematics and Informatics Profile</p>
-                      <br>
-                      <li>Oct 2016 - Jul 2019</li>
-                        <p>Faculty of Cybernetics, Statistics and Economic Informatics, Academy of Economic Studies, Bucharest, Romania</p>
-                      <br>
-                      <li>Oct 2019 - Jul 2021</li>
-                        <p>Master Degree - Information systems for the management of economic processes and resources (SIMPRE), ASE</p>
-                      <br>
-                      <h1>Experience</h1>
-                      <hr class="divider my-4" />
-                      <li>March 2018 - May 2018</li>
-                        <p>Software developer, SIVECO S.A - Faculty practice</p>
-                      <br>
-                      <li>Jan 2020 - Now</li>
-                        <p>Software Developer, BearingPoint Romania</p>
-                      <br>
-                  </div>
-          </div>
-      </div>
-  </section>
+            <div class="container" id="educ1">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Education</h2>
+                        <hr class="divider my-4" />
+                    </div>
+                    <education-component></education-component>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">Experience</h2>
+                    <hr class="divider my-4" />
+                </div>
+                <experience-component></experience-component>
+            </div>
+    </section>
 
     <!-- Skills -->
     <section class="page-section" id="skills">

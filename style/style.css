@@ -4494,6 +4494,30 @@ input[type=button].btn-block {
 .card-deck .card {
   margin-bottom: 15px;
 }
+
+@media (max-device-width: 480px) {
+  .card {
+    height: 250px;
+  }
+  .card-deck {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+}
+
+@media (max-device-width: 850px) {
+  .card {
+    height: 300px;
+  }
+
+  .card-deck {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+}
+
 @media (min-width: 576px) {
   .card-deck {
     display: flex;

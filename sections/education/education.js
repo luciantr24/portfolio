@@ -1,6 +1,6 @@
 const educationTemplate = document.createElement("template");
 educationTemplate.innerHTML = `
-<link href="../../style/custom.css" rel="stylesheet">
+<link href="style/custom.css" rel="stylesheet">
 
 <div class="timeline">
   <div class="outer">

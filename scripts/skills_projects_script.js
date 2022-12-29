@@ -53,7 +53,7 @@ const technologies = [
       "C#",
       "React",
       "JavaScript",
-      "Typescript",
+      "TypeScript",
       "Node",
       "Python",
       "Unit Testing",
@@ -70,6 +70,7 @@ const technologies = [
       "React",
       "Context API, Redux",
       "Material UI, Bootstrap, Antd",
+      "Microsoft PowerApps",
     ],
   },
   {

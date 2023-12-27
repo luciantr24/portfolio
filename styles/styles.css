@@ -952,6 +952,14 @@ section {
   }
 }
 @media screen and (max-width: 660px) {
+  .container {
+    padding: 7rem 11rem;
+  }
+
+  .contact-content-con {
+    width: 414px;
+  }
+
   .blogs {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -973,6 +981,14 @@ section {
 }
 
 @media (max-width: 586px) {
+  .container {
+    padding: 7rem 11rem;
+  }
+
+  .contact-content-con {
+    width: 414px;
+  }
+
   .jobs-education-container {
     display: grid;
     align-items: center;

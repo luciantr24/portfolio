@@ -129,6 +129,23 @@ section {
   margin: 0.7rem 0;
   box-shadow: var(--box-shadow-1);
 }
+
+.control-theme-btn {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: var(--color-grey-4);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem 0;
+  box-shadow: var(--box-shadow-1);
+  font-size: 1.2rem;
+  color: var(--color-grey-2);
+}
+
 .controls .control i {
   font-size: 1.2rem;
   color: var(--color-grey-2);
@@ -140,6 +157,76 @@ section {
 }
 .controls .active-btn i {
   color: var(--color-white);
+}
+
+.control .tooltiptext {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.control .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.control:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.control-theme-btn .tooltiptext {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  z-index: 1;
+  bottom: 125%;
+  left: 75%;
+  margin-left: -120px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.control-theme-btn .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.control-theme-btn:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 .theme-btn {
@@ -961,6 +1048,17 @@ section {
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .theme-btn {
+    margin-top: 40px;
   }
 }
 
